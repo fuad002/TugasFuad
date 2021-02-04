@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_kedua">
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIODATA MAHASANTRI PeTIK"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/item" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kesatu"
+        android:layout_below="@+id/data"
+        android:textColor="@color/item"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kedua"
+        android:layout_below="@+id/nama"
+        android:textColor="@color/item"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/ttl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ketiga"
+        android:layout_below="@+id/alamat"
+        android:textColor="@color/item"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="keempat"
+        android:layout_below="@+id/ttl"
+        android:textColor="@color/item"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kelima"
+        android:layout_below="@+id/email"
+        android:textColor="@color/item"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/asiyaap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Terimakasih Sudah Mengisi )"
+        android:layout_below="@+id/no"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/item"/>
+</RelativeLayout>
